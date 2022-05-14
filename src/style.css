@@ -1,0 +1,224 @@
+body {
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+section {
+	background-color: white;
+}
+
+.hero {
+	background-color: #1c1d25;
+	height: 100vh;
+	color: white;
+	font-size: 40px;
+}
+
+footer {
+	height: 500px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 70px;
+
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	width: 470px;
+	justify-content: space-around;
+	font-size: 28px;
+
+}
+
+li {
+	/*width: 200px;*/
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 70px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+p {
+	margin: 0;
+	font-size: 30px;
+
+}
+
+.subtext{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.hero-area {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-text {
+	margin-left: 70px;
+	margin-bottom: 180px;
+}
+
+.button {
+	width: 200px;
+	height: 55px;
+	border-radius: 30px;
+	background-color: coral;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+
+.button:hover {
+	background-color: #ef744b;
+}
+
+.button:hover {
+	background-color: #A 9A9A9;
+	color: #808080;
+}
+
+.socials {
+	padding-bottom: 200px;
+}
+
+.logo {
+	height: 80px;
+	margin: 30px;
+}
+
+.social {
+	margin: 12px;
+}
+
+.sub-section{
+	background-color: #E9E9E9;
+	display: flex;
+	justify-content: space-around;
+	padding: 80px;
+}
+
+.sub-sec-alt {
+	background-color: #E9E9E9;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 40px; 
+
+}
+
+.headshot {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+headshot-container{
+	display: flex;
+	align-items: center;
+}
+
+.project-card {
+	width: 200px;
+	height: 500px;
+	box-shadow: 4px 4px 18px dimgrey;
+	margin: 10px;
+}
+
+.project-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width:  1000px){
+	.project-container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.project-image{
+	margin-top: 25px;
+	width: 200px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+hr {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.project-link{
+	margin: left;
+	text-decoration: none;
+	color: #ef744b;
+}
+
+.project-link-two{
+	margin: left;
+	text-decoration: none;
+	color: #ef744b;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.container-contact{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.contact-form-txt{
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	gap: 15px;
+}
+
+input,
+select,
+textarea {
+	padding: 22px;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+button {
+	position: static;
+	width: 100px;
+	padding: 20px;
+	cursor: pointer;
+	background: #673de6;
+	color: white;
+
+}
